@@ -1,0 +1,19 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+ img{
+    display: inline;
+    height: 50vh;
+    max-width: 100vh;
+    }
+p{
+    padding: 1px;
+    margin-top: 2px;
+}
+.register{
+    display: inline-block;
+}
+.modal-content{
+    background-color: rgb(137, 137, 219);
+}
