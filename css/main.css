@@ -20,3 +20,19 @@ p{
 .container mt-5rd{
     background-color: blue;
 }
+.card{
+    width: 65vh;
+    height: 10vh;
+    display: inline-block;
+  
+}
+button{
+    background-color: rgb(135, 135, 217);
+}
+
+.mb-3{
+    background-color: rgb(165, 228, 180);
+}
+.card-header{
+    background-color: blue;
+}

@@ -47,42 +47,35 @@
 
     </nav>
 
-    <div class="modal fade show" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Register</h1>
-                </div>
-                <div class="modal-body">
-                    <div class="input-group">
-                        <span class="input-group">User Name:</span>
-                        <input class="form-control" type="text" minlength="1" min="1">
-                    </div><br>
-                    <div class="input-group">
-                        <span class="input-group">Email:</span>
-                        <input class="form-control" type="email" minlength="1" min="1">
-                    </div><br>
-                    <div class="input-group">
-                        <span class="input-group">Password:</span>
-                        <input class="form-control" type="password" minlength="1" min="1">
-                    </div><br>
-                    <div class="input-group">
-                        <span class="input-group">Confirm Password:</span>
-                        <input class="form-control" type="password" minlength="1" min="1">
-                    </div><br>
-                    <div class="input-group">
-                        <span class="input-group">How did you hear about us?</span>
-                        <input class="form-control" type="radio">
-                    </div><br>
-
-                </div>
-                <div>
-                    <a href="index.html"></a>
-                    <button type="button" class="btn btn-primary">Register</button>
-                    </a>
+    <div class="register">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">Register</div>
+                    <div class="card-body">
+                        <form action="./login.html" method="post">
+                            <div class="mb-3">
+                                <label for="username" class="form-label">Username</label>
+                                <input type="text" class="form-control" id="username" placeholder="Enter your username">
+                            </div>
+                            <div class="mb-3">
+                                <label for="username" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="Email" placeholder="Enter your email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Enter Password</label>
+                                <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Comfirm Password</label>
+                                <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                            </div>
+                           
+                            <button type="submit" class="btn btn-primary">register</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-
         </div>
     </div>
 
