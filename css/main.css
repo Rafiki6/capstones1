@@ -24,6 +24,7 @@ p{
     width: 65vh;
     height: 10vh;
     display: inline-block;
+    background-color: rgb(147, 147, 228);
   
 }
 button{
@@ -40,5 +41,8 @@ button{
 table{
     padding: auto;
     margin: 1px;
-    
+
+}
+.card .card-header{
+    background-color: rgb(118, 118, 221);
 }
