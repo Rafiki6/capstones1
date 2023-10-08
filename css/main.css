@@ -36,3 +36,9 @@ button{
 .card-header{
     background-color: blue;
 }
+
+table{
+    padding: auto;
+    margin: 1px;
+    
+}
