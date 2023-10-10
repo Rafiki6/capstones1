@@ -1,6 +1,8 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: rgb(72, 205, 48);
+    font-size: 2vh;
 }
  img{
     display: inline;
@@ -20,13 +22,45 @@ p{
 .container mt-5rd{
     background-color: blue;
 }
-.card{
-    width: 65vh;
-    height: 10vh;
-    display: inline-block;
-    background-color: rgb(147, 147, 228);
-  
+.image-container{
+    width: 100%;
+    display: block;
 }
+.card{
+    width: 40vh;
+    /* height: 10vh; */
+    display: inline-flex;
+    /* background-color: rgb(147, 147, 228); */
+   min-height:80vh;
+   position: relative;
+}
+.card .bottom{
+    position: absolute;
+    bottom: 0;
+}
+.card .price{
+    position: absolute;
+    bottom: 0.25rem;
+    left:0.25rem;
+    font-size: 1.25rem;
+}
+.card a{
+    position: absolute;
+    bottom: 0.25rem;
+    right:0.25rem;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card p{
+    padding: 0.25rem;
+    text-align: justify;
+}
+.card h1{
+    font-size: 1.5rem;
+}
+
 button{
     background-color: rgb(135, 135, 217);
 }
