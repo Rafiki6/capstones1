@@ -4,10 +4,24 @@ body {
     background-color: rgb(125, 210, 233);
     font-size: 2vh;
 }
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    animation-duration: 2ms;
+    color: rgb(20, 27, 213);
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+}
+.navbar{
+    color: blue;
+}
 
 .kigali img {
 
-    height: 50vh;
+    height: 70vh;
     width: 200vh;
     object-fit: cover;
 }
@@ -49,6 +63,10 @@ p {
     min-height: 80vh;
     position: relative;
 }
+.card{
+    color: blue;
+    /* background-color: gray; */
+}
 
 .card .bottom {
     position: absolute;
@@ -86,13 +104,11 @@ button {
     background-color: rgb(135, 135, 217);
 }
 
-.mb-3 {
+/* .mb-3 {
     background-color: rgb(165, 228, 180);
-}
+} */
 
-.card-header {
-    background-color: blue;
-}
+
 
 table {
     padding: auto;
@@ -111,6 +127,28 @@ table {
     align-items: center;
 }
 .login .card{
-    width: 80vw;
+    width: 40vw;
     
+}
+.card-login{
+    color: blue;
+    background-color: gray;
+    width: 40vw;
+}
+.card-header {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+.checkout{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.table{
+    display: flex;
+    justify-content: center;
 }

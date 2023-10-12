@@ -1,15 +1,31 @@
 body{
-    background-color: rgb(106, 219, 126);
+    background-color: rgb(101, 205, 237);
     width: 0;
     height: 0;
 }
 .register {
     width: 80vh;
     height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.card{
+img{
+    height: 70vh;
+    width: 200vh;
+    object-fit: fill;
+
+}
+img:hover{
+    transform: scaleX(-2);
+}
+.card-register{
     color: rgb(39, 11, 199);
     background-color: gray;
     width: 70vh;
     height: auto;
+}
+.card-register .card-header{
+    display: flex;
+    justify-content: center;
 }
