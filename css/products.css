@@ -1,0 +1,27 @@
+body{
+    width: 0;
+    height: 0;
+    background-color: rgb(144, 144, 239);
+}
+.image-container{
+    width: 100%;
+    display: block;
+}
+.card{
+    width: 40vh;
+    /* height: 10vh; */
+    display: inline-flex;
+    /* background-color: rgb(147, 147, 228); */
+   min-height:80vh;
+   position: relative;
+}
+.card .bottom{
+    position: absolute;
+    bottom: 0;
+}
+.card .price{
+    position: absolute;
+    bottom: 0.25rem;
+    left:0.25rem;
+    font-size: 1.25rem;
+}

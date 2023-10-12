@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(106, 219, 126);
+    width: 0;
+    height: 0;
+}
+.register {
+    width: 80vh;
+    height: 70vh;
+}
+.card{
+    color: rgb(39, 11, 199);
+    background-color: gray;
+    width: 70vh;
+    height: auto;
+}

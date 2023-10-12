@@ -1,82 +1,116 @@
-body{
+body {
     padding: 0;
     margin: 0;
-    background-color: rgb(72, 205, 48);
+    background-color: rgb(125, 210, 233);
     font-size: 2vh;
 }
- img{
-    display: inline;
+
+.kigali img {
+
     height: 50vh;
-    max-width: 100vh;
-    }
-p{
+    width: 200vh;
+    object-fit: cover;
+}
+
+
+img:hover {
+    transform: scaleX(-1);
+}
+    
+p {
     padding: 1px;
     margin-top: 2px;
 }
-.register{
+
+.register {
     display: inline-block;
+    width: 70vh;
+    height: auto;
 }
-.modal-content{
+
+.modal-content {
     background-color: rgb(137, 137, 219);
 }
-.container mt-5rd{
+
+.container mt-5rd {
     background-color: blue;
 }
-.image-container{
+
+.image-container {
     width: 100%;
     display: block;
 }
-.card{
+
+.image-container .card {
     width: 40vh;
     /* height: 10vh; */
     display: inline-flex;
     /* background-color: rgb(147, 147, 228); */
-   min-height:80vh;
-   position: relative;
+    min-height: 80vh;
+    position: relative;
 }
-.card .bottom{
+
+.card .bottom {
     position: absolute;
     bottom: 0;
 }
-.card .price{
+
+.card .price {
     position: absolute;
     bottom: 0.25rem;
-    left:0.25rem;
+    left: 0.25rem;
     font-size: 1.25rem;
 }
-.card a{
+
+.card a {
     position: absolute;
     bottom: 0.25rem;
-    right:0.25rem;
+    right: 0.25rem;
 }
-.card img{
+
+.card img {
     width: 100%;
     height: auto;
 }
-.card p{
+
+.card p {
     padding: 0.25rem;
     text-align: justify;
 }
-.card h1{
+
+.card h1 {
     font-size: 1.5rem;
 }
 
-button{
+button {
     background-color: rgb(135, 135, 217);
 }
 
-.mb-3{
+.mb-3 {
     background-color: rgb(165, 228, 180);
 }
-.card-header{
+
+.card-header {
     background-color: blue;
 }
 
-table{
+table {
     padding: auto;
     margin: 1px;
 
 }
-.card .card-header{
+
+.card .card-header {
     background-color: rgb(118, 118, 221);
+}
+.login{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 90vh;
+    align-items: center;
+}
+.login .card{
+    width: 80vw;
+    
 }
