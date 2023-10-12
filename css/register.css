@@ -29,3 +29,6 @@ img:hover{
     display: flex;
     justify-content: center;
 }
+.logo{
+    color: blue;
+}
