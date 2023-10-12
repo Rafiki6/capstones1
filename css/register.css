@@ -11,14 +11,14 @@ body{
     align-items: center;
 }
 img{
-    height: 70vh;
-    width: 200vh;
+    height: 90vh;
+    width: 100vw;
     object-fit: fill;
 
 }
-img:hover{
+/* img:hover{
     transform: scaleX(-2);
-}
+} */
 .card-register{
     color: rgb(39, 11, 199);
     background-color: gray;
